@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+  <title>Kerala Tourism</title>
+</head>
+
+<body class="bg-white">
+  <!-- header -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-info">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./images/icon.png" alt="Icon"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item font-weight-bold">
+            <a class="nav-link text-white active" aria-current="page" href="#">HOME</a>
+          </li>
+          <!-- <li class="nav-item">
+                <a class="nav-link text-white " href="#">DISTRICTS</a>
+              </li> -->
+          <li class="nav-item">
+            <a class="nav-link text-white" href="./login.html">LOGIN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="./sign.html">SIGNUP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- header end -->
+
+  <!-- courosel -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/bg1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/bg3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/bg2.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- courosel end -->
+
+  <!-- cards -->
+  <section class="service-section pt-5 pb-5 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 pb-4">
+          <h3 class="text-uppercase font-weight-bold custom-font-h3">Districts</h3>
+        </div>
+        <div class="col-lg-6 pb-3">
+          <div class="district-box card shadow-sm pt-4 bg-white rounded">
+            <a href="./alappuzha.html">
+              <img src="./images/d1.jpg" alt="img" class="img-fluid">
+            </a>
+            <h4 class="font-weight-bold pt-3 pb-3">Alappuzha</h4>
+          </div>
+        </div>
+        <div class="col-lg-6 pb-3">
+          <div class="district-box card shadow-sm pt-4 bg-white rounded">
+            <a href="./thrissur.html">
+              <img src="./images/d2.jpg" alt="img" class="img-fluid">
+            </a>
+            <h4 class="font-weight-bold pt-3 pb-3">Thrissur</h4>
+          </div>
+        </div>
+        <div class="col-lg-6 pb-3">
+          <div class="district-box card shadow-sm pt-4 bg-white rounded">
+            <a href="./idukki.html">
+              <img src="./images/d3.jpg" alt="img" class="img-fluid">
+            </a>
+            <h4 class="font-weight-bold pt-3 pb-3">Idukki</h4>
+          </div>
+        </div>
+
+        <div class="col-lg-6 pb-3">
+          <div class="district-box card shadow-sm pt-4 bg-white rounded">
+            <a href="./kozhikode.html">
+              <img src="./images/d4.jpg" alt="img" class="img-fluid">
+            </a>
+            <h4 class="font-weight-bold pt-3 pb-3">Kozhikode</h4>
+          </div>
+        </div>
+        <div class="col-lg-6 pb-3">
+          <div class="district-box card shadow-sm pt-4 bg-white rounded">
+            <a href="./wayanad.html"><img src="./images/d5.jpg" alt="img" class="img-fluid"></a>
+            <h4 class="font-weight-bold pt-3 pb-3">Wayanad</h4>
+          </div>
+        </div>
+        <div class="col-lg-6 pb-3">
+          <div class="district-box card shadow-sm pt-4 bg-white rounded">
+            <a href="#">
+              <img src="./images/d6.jpg" alt="img" class="img-fluid">
+            </a>
+            <h4 class="font-weight-bold pt-3 pb-3">Kannur</h4>
+          </div>
+        </div>
+
+        <div class="col-lg-6 pb-3">
+          <div class="district-box card shadow-sm pt-4 bg-white rounded">
+            <a href="#">
+              <img src="./images/d7.jpg" alt="img" class="img-fluid">
+            </a>
+            <h4 class="font-weight-bold pt-3 pb-3">Kasaragod</h4>
+          </div>
+        </div>
+        <div class="col-lg-6 pb-3">
+          <div class="district-box card shadow-sm pt-4 bg-white rounded">
+            <a href="#">
+              <img src="./images/d8.jpg" alt="img" class="img-fluid">
+            </a>
+            <h4 class="font-weight-bold pt-3 pb-3">Malappuram</h4>
+          </div>
+        </div>
+        <div class="col-lg-6 pb-3">
+          <div class="district-box card shadow-sm pt-4 bg-white rounded">
+            <a href="#">
+              <img src="./images/d9.jpg" alt="img" class="img-fluid">
+            </a>
+            <h4 class="font-weight-bold pt-3 pb-3">Palakkad</h4>
+          </div>
+        </div>
+
+        <div class="col-lg-6 pb-3">
+          <div class="district-box card shadow-sm pt-4 bg-white rounded">
+            <a href="#">
+              <img src="./images/d10.jpg" alt="img" class="img-fluid">
+            </a>
+            <h4 class="font-weight-bold pt-3 pb-3">Ernakulam</h4>
+          </div>
+        </div>
+        <div class="col-lg-6 pb-3">
+          <div class="district-box card shadow-sm pt-4 bg-white rounded">
+            <a href="#">
+              <img src="./images/d11.jpg" alt="img" class="img-fluid">
+            </a>
+            <h4 class="font-weight-bold pt-3 pb-3">Kottayam</h4>
+          </div>
+        </div>
+        <div class="col-lg-6 pb-3">
+          <div class="district-box card shadow-sm pt-4 bg-white rounded">
+            <a href="#">
+              <img src="./images/d12.jpg" alt="img" class="img-fluid">
+            </a>
+            <h4 class="font-weight-bold pt-3 pb-3">Kollam</h4>
+          </div>
+        </div>
+
+        <div class="col-lg-6 pb-3">
+          <div class="district-box card shadow-sm pt-4 bg-white rounded">
+            <a href="#">
+              <img src="./images/d13.jpg" alt="img" class="img-fluid">
+            </a>
+            <h4 class="font-weight-bold pt-3 pb-3">Pathanamthitta</h4>
+          </div>
+        </div>
+        <div class="col-lg-6 pb-3">
+          <div class="district-box card shadow-sm pt-4 bg-white rounded">
+            <a href="#">
+              <img src="./images/d14.jpg" alt="img" class="img-fluid">
+            </a>
+            <h4 class="font-weight-bold pt-3 pb-3">Thiruvananthapuram</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- card end -->
+
+
+  <!-- footer -->
+  <footer class="bg-light pt-2 pb-2 text-center custom-footer">
+    <p class="text-light">copyright@2022 Tourism</p>
+  </footer>
+  <!-- footer end -->
+
+</body>
+
+</html>
